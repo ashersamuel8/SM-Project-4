@@ -1,15 +1,10 @@
 package com.project4.project_4_group_81;
-
+import java.util.ArrayList;
 /**
  * This class stores all of the orders that have been placed
  * @author Samuel Asher Kappala
  * @author Bhavya Patel
  */
-
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-
 public class StoreOrders {
     private ArrayList<Order> orders;
 

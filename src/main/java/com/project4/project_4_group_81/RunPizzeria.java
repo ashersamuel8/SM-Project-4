@@ -7,6 +7,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Main class that runs the application
+ * @author Bhavya Patel
+ * @author Samuel Asher Kappala
+ */
 public class RunPizzeria extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -17,6 +22,10 @@ public class RunPizzeria extends Application {
         stage.show();
     }
 
+    /**
+     * Main method that launches the application
+     * @param args
+     */
     public static void main(String[] args) {
         launch();
     }
